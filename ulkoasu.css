@@ -1,0 +1,14 @@
+header {
+	background-image: url('fmi-brand-element.png');
+	height: 3em;
+}
+.navbartop{
+	
+	height: 3em;
+	text-align: center;
+	
+}
+
+.navbartop li{
+	display: inline;
+}
