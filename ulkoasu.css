@@ -1,14 +1,60 @@
 header {
-	background-image: url('fmi-brand-element.png');
-	height: 3em;
-}
-.navbartop{
-	
-	height: 3em;
+	background-image: url("fmi-brand-element.png");
+	background-color: #6495ED;
+    height:5em;
+	display: table;
+	width: 100%;
+	/*border: 1px solid black;*/
 	text-align: center;
-	
 }
 
+.logo{
+   
+	display: table-cell;
+	vertical-align: middle;
+	/*border: 1px solid black;*/
+	
+
+}
+
+.kuva{
+	float:left;	
+}
+
+.navbartop{
+	font-size: 0.9em;
+	color: white;
+	width:50%;
+	/*border: 1px solid black;*/
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+
 .navbartop li{
+	color: white;
 	display: inline;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+.navbartop a{
+	text-decoration:none;
+	color: white;
+}
+
+
+
+.hakutop{
+  
+  display: table-cell;
+  vertical-align: middle;
+  /*border: 1px solid black; */
+  
+}
+
+.hakuright{
+	float:right;
 }
