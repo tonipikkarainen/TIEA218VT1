@@ -20,7 +20,7 @@
 			</nav>
 			<div class="hakutop">
 				<div class="hakuright">
-					<input type="search"> <button>Haku</button>
+					<input type="search"/> <input  class="ylahakunappi" value="Haku" type="button"/>
 				</div>
 			</div>
 		</header>
@@ -38,12 +38,13 @@
 					<a href="#" id="merkkihaku"></a> 
 			</div>
 		</div>
-		<div class="left">	
+		<div class="content">
+			
 			<nav class="navbarleft">
-				<ul>
-					<li><a href="#">Sää ja meri</a> </li>
-					<li><a href="#">Paikallissää</a> 
-						<ul>
+				<ul class="ulko">
+					<li ><a id="saaitem" href="#">Sää ja meri</a> </li>
+					<li ><a id="paikallisitem" href="#">Paikallissää</a> 
+						<ul class="sisa">
 							<li><a href="#">Suomen havainnot</a> </li>
 							<li><a href="#">Säämerkkien selitykset</a> </li>
 							<li><a href="#">Sääennusteen osuvuus</a> </li>
@@ -59,8 +60,9 @@
 					<li><a href="#">Muuntolaskuri </a> </li>
 				</ul>
 			</nav>
-		</div>
+		
 		<div class="maincontent"></div>
+		</div>
 		<footer>
 		</footer>
 	</body>
