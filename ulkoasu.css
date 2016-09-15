@@ -1,11 +1,22 @@
+html{
+	
+	width:100%;
+	background-color:#DAECF7;
+	
+}
+body{
+	width:90%;
+	margin:auto;
+}
 header {
 	background-image: url("fmi-brand-element.png");
-	background-color: #6495ED;
+   
     height:5em;
 	display: table;
 	width: 100%;
 	/*border: 1px solid black;*/
 	text-align: center;
+
 }
 
 .logo{
@@ -23,7 +34,7 @@ header {
 
 .navbartop{
 	font-size: 0.9em;
-	color: white;
+	color: #23527C;
 	width:50%;
 	/*border: 1px solid black;*/
 	display: table-cell;
@@ -43,6 +54,7 @@ header {
 .navbartop a{
 	text-decoration:none;
 	color: white;
+	color: #23527C;
 }
 
 
@@ -61,7 +73,7 @@ header {
 
 .ylahakunappi{
 	color:white;
-	background-color:blue;
+	background-color:#439FDB;
 	border:0px solid black;
 	height:1.5em;
 }
@@ -69,7 +81,7 @@ header {
 	
 	width: 100%;
 	height: 3em;
-	
+
 }
 
 .leftlefthakupalkki{
@@ -96,7 +108,7 @@ header {
 	width:15.8%;
 	min-width: 7em;
 	height:100%;
-	background-color:#66cc00;
+	background-color:#3BA12F;
 	position: relative 
 	
 }
@@ -129,10 +141,11 @@ header {
 	
 }
 
+
 .navbarleft{
 	
-	border-left: 1px solid #cccccc;
-	border-right: 1px solid #cccccc;
+	border-left: 1px solid #EFEFEF;
+	border-right: 1px solid #EFEFEF;
 	float:left;
 	width:20%;
 
@@ -169,13 +182,13 @@ header {
 .ulko a{
 	width:95%;
 	padding-left:5%;
-	
+	background:white;
 }
 
 .sisa a{
 	width:90%;
 	padding-left:10%;
-	background:#d9d9d9;
+	background:#F8F8F8;
 }
 
 /*
@@ -188,13 +201,13 @@ header {
 
 
 #saaitem{
-	background:#33adff;
+	background:#53B9E6;
 	color:white;
 
 }
 
 #paikallisitem{
-	background:#005c99;
+	background:#0076D7;
 	color:white;
 }
 
