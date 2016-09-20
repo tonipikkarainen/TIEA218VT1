@@ -1,0 +1,11 @@
+/* tulostustyylit*/
+
+.navbartop, .navkoti, .navbartoptop, .hakutop, .hakupalkki, .navbarleft{
+	display:none;
+}
+.main{
+	margin:0;
+	float:left;
+	width:100%;
+	background:white;
+}

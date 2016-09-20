@@ -122,8 +122,8 @@ header {
 .ylahakunappi{
 	color:white;
 	background-color:#439FDB;
-	border:0px solid black;
-	height:1.5em;
+	border:none;
+	height:2em;
 }
 .hakupalkki{
 	
