@@ -11,12 +11,18 @@ body{
 header {
 	background-image: url("fmi-brand-element.png");
    
-    height:5em;
-	display: table;
+    height:10em;
+	
 	width: 100%;
 	/*border: 1px solid black;*/
 	text-align: center;
 
+}
+
+.headertop{
+	display: table;
+	height:50%;
+	width:100%;
 }
 
 .logo{
@@ -32,7 +38,7 @@ header {
 	float:left;	
 }
 
-.navbartop{
+.navbartoptop{
 	font-size: 0.9em;
 	color: #23527C;
 	width:50%;
@@ -44,20 +50,62 @@ header {
 
 
 
-.navbartop li{
+.navbartoptop li{
 	color: white;
 	display: inline;
 	padding-left:1em;
 	padding-right:1em;
 }
 
-.navbartop a{
+.navbartoptop a{
 	text-decoration:none;
 	color: white;
 	color: #23527C;
 }
 
+.navbartop ul{
+	width:93%;
+	float:left;
+	height:3em;
+	background:#126CC5;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
 
+.navbartop li{
+	display:inline;
+	float:left;
+	height:100%;
+	
+}
+
+.navbartop a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	border-left:1px white solid;
+	height:100%;
+	line-height:3em;
+	float:left;
+	padding-left:1em;/*responsive fonts??*/
+	padding-right:1em;
+}
+
+.navkoti{
+	float:left;
+	width:7%;
+	height:3em;
+	background-image: url("kotiikoni.png");
+	background-position:center;
+}
+
+#koti{
+	display: block;
+	width:100%;
+	height:100%;
+	
+}
 
 .hakutop{
   
@@ -90,10 +138,10 @@ header {
 	height:100%;
 	/*background-color: #4d9900;*/
 	background-image: url("vihreapilvi.png");
-	
+	background-position:center;
 }
 
-.lefthakupalkki h2{
+.lefthakupalkki h1{
 	margin: 0;
 	position: absolute;
     top: 50%;
@@ -131,7 +179,7 @@ header {
 	width:7%;
 	height:100%;
 	background-image: url("hakukuva.png");
-
+	background-position:center;
 }
 
 #merkkihaku{
@@ -144,11 +192,12 @@ header {
 
 .navbarleft{
 	
-	border-left: 1px solid #EFEFEF;
-	border-right: 1px solid #EFEFEF;
+	border-left: 2px solid #EFEFEF;
+	border-right: 2px solid #EFEFEF;
 	float:left;
-	width:20%;
-
+	width: -moz-calc(20% - 4px);
+    width: -webkit-calc(20% - 4px);
+    width: calc(20% - 4px);
 }
 
 .ulko, .sisa{
@@ -215,6 +264,115 @@ header {
 	margin-top:1em;
 }
 
+.main{
+	margin:0;
+	float:left;
+	width:80%;
+	background:white;
+}
+
+.main h1{
+	padding-left:3%;
+}
+.taulukko{
+	width:94%;
+	border-spacing:0;
+	border-collapse: collapse;
+	text-align:center;
+	margin-left:3%;
+	margin-right:3%;
+}
 
 
+/*
+td	{
+    border-right: 1px solid #ddd;
+}
+*/
+.reuna{
+	border-right: 1px solid #D3D3D3;
+}
+
+
+.paivat td{
+	text-align:left;
+	padding-left:0.7em;
+}
+
+
+
+.saakuva{
+	width:100%;
+}
+
+.luoteis{
+	background-image: url("luoteis.svg");
+	background-size: 100%;
+}
+
+.tuulet td{
+	height:3em;	/*ei ehkä hyvä*/
+	position:relative;
+}
+
+.luoteis{
+	background-image: url("luoteis.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+}
+
+.pohjois{
+	background-image: url("pohjois.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+}
+
+.kaikki{
+	background-image: url("kaikkituulet.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+}
+
+.etela{
+	background-image: url("etela.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+}
+.lounais{
+	background-image: url("lounas.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+}
+
+.kaakkois{
+	background-image: url("kaakkois.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+}
+
+.lansi{
+	background-image: url("lansi.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+}
+
+.vaalea{
+	background:#F2F2F2;
+}
+
+.tumma{
+	background:#E4E4E4;
+}
+
+
+.temp{
+	color:#FF0700;
+}
 

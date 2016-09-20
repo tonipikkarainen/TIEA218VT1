@@ -7,11 +7,12 @@
 	</head>
 	<body>
 		<header>
+			<div class="headertop">
 			<div class="logo">
 			<img src="fmi-logo-fi.png" class="kuva" alt="">
 		
 			</div>
-			<nav class="navbartop">
+			<nav class="navbartoptop">
 				<ul>
 					<li><a href="#">MOBIILISÄÄ</a> </li>
 					<li><a href="#">IN ENGLISH</a> </li>
@@ -23,13 +24,28 @@
 					<input type="search"/> <input  class="ylahakunappi" value="Haku" type="button"/>
 				</div>
 			</div>
+			</div>
+			<div class="navkoti">
+					<a href="#" id="koti"></a>
+			</div>
+			<nav class="navbartop">
+				<ul>
+					<li><a href="#">Sää ja meri</a></li>
+					<li><a href="#">Ilmasto</a></li>
+					<li><a href="#">Palvelut ja tuotteet</a></li>
+					<li><a href="#">Teematietoa</a></li>
+					<li><a href="#">Tutkimustoiminta</a></li>
+					<li><a href="#">Ilmatieteen laitos</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</nav>
 		</header>
 		<div class="hakupalkki">
 			<div class="leftlefthakupalkki">
 					
 			</div>
 			<section class="lefthakupalkki">
-			<h2>Paikallissää:</h2>
+			<h1>Paikallissää:</h1>
 			</section>
 			<div class="centerhakupalkki">
 					<input id="isoinput" type="search"> 
@@ -61,7 +77,108 @@
 				</ul>
 			</nav>
 		
-		<div class="maincontent"></div>
+			<section class="main">
+			<h1>Sääennuste Jyväskylä</h1>
+			<table class="taulukko" >
+				<tr class="paivat">
+					<td class="vaalea reuna" colspan="3">ma
+					</td>
+
+					<td colspan="6" class="tumma reuna">ti</td>
+					
+					<td class="vaalea reuna" colspan="3">ke</td>
+				
+					<td colspan="2" class="tumma reuna">to</td>
+				
+					<td class="vaalea reuna" colspan="2">pe</td>
+					
+					<td colspan="2" class="tumma">la</td>
+				
+				</tr>
+				<tr>
+					<td class="vaalea">15</td>
+					<td class="vaalea">18</td>
+					<td class="vaalea reuna">21</td>	
+					<td class="tumma">00</td>
+					<td class="tumma">03</td>
+					<td class="tumma">06</td>
+					<td class="tumma">09</td>
+					<td class="tumma">15</td>
+					<td class="tumma reuna">21</td>
+					<td class="vaalea">03</td>
+					<td class="vaalea">09</td>
+					<td class="vaalea reuna">15</td>
+					<td class="tumma">03</td>
+					<td class="tumma reuna">15</td>
+					<td class="vaalea">03</td>
+					<td class="vaalea reuna">15</td>
+					<td class="tumma">03</td>
+					<td class="tumma">15</td>
+				</tr>
+				<tr>
+					
+					<td><img src="aurinko.svg" class="saakuva"></td>
+					<td><img src="aurinko.svg" class="saakuva"></td>
+				
+					<td class="reuna"><img src="aurinko.svg" class="saakuva"></td>
+					<td><img src="kuu.svg" class="saakuva"></td>
+					<td><img src="kuupilvi.svg" class="saakuva"></td>
+					<td><img src="aurinko.svg" class="saakuva"></td>
+					<td><img src="puolipilvi.svg" class="saakuva"></td>
+					<td><img src="yksipisara.svg" class="saakuva"></td>
+					<td class="reuna"><img src="pilvi.svg" class="saakuva"></td>
+					<td><img src="kuupilvi.svg" class="saakuva"></td>
+					<td><img src="puolipilvi.svg" class="saakuva"></td>
+					<td class="reuna"><img src="yksipisara.svg" class="saakuva"></td>
+					<td><img src="kuu.svg" class="saakuva"></td>
+					<td class="reuna"><img src="puolipilvi.svg" class="saakuva"></td>
+					<td><img src="kuupilvi.svg" class="saakuva"></td>
+					<td class="reuna"><img src="yksipisara.svg" class="saakuva"></td>
+					<td><img src="kuupilvi.svg" class="saakuva"></td>
+					<td><img src="kaksipisaraa.svg" class="saakuva"></td>
+				</tr>
+				<tr class="temp">
+					<td>20&deg;</td>
+					<td>18&deg;</td>
+					<td class="reuna">14&deg;</td>
+					<td>8&deg;</td>
+					<td>6&deg;</td>
+					<td>4&deg;</td>
+					<td>12&deg;</td>
+					<td>20&deg;</td>
+					<td class="reuna">18&deg;</td>
+					<td>6&deg;</td>
+					<td>8&deg;</td>
+					<td class="reuna">13&deg;</td>
+					<td>4&deg;</td>
+					<td class="reuna">15&deg;</td>
+					<td>6&deg;</td>
+					<td class="reuna">15&deg;</td>
+					<td>8&deg;</td>
+					<td>13&deg;</td>
+				</tr>
+				<tr class="tuulet">
+					<td class="luoteis">2</td>
+					<td class="luoteis">3</td>
+					<td class="luoteis reuna">2</td>
+					<td class="pohjois">1</td>
+					<td class="pohjois">1</td>
+					<td class="kaikki">0</td>
+					<td class="etela">1</td>
+					<td class="lounais">5</td>
+					<td class="pohjois reuna">4</td>
+					<td class="pohjois">5</td>
+					<td class="pohjois">5</td>
+					<td class="pohjois reuna">4</td>
+					<td class="lansi">1</td>
+					<td class="etela reuna">4</td>
+					<td class="etela">4</td>
+					<td class="etela reuna">6</td>
+					<td class="kaakkois">4</td>
+					<td class="kaakkois">5</td>
+				</tr>
+			</table>
+			</section>
 		</div>
 		<footer>
 		</footer>
