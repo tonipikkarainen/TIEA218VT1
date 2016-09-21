@@ -213,15 +213,17 @@ header {
 }
 
 .navbarleft{
+	box-sizing: border-box;
 	display:block;
 	font-size:13px;
 	font-weight:400;
 	border-left: 0px solid #EFEFEF;
 	border-right: 1px solid #EFEFEF;
 	float:left;
-	width: -moz-calc(24% - 1px);
+	width:24%;
+	/*width: -moz-calc(24% - 1px);
     width: -webkit-calc(24% - 1px);
-    width: calc(24% - 1px);
+    width: calc(24% - 1px);*/
 }
 
 .ulko, .sisa{
