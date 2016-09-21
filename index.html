@@ -2,11 +2,14 @@
 <html lang="fi">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>VT1</title>
-		<link href="ulkoasu.css" rel="StyleSheet" type="text/css" media="all"/>
+		<link href="ulkoasuresp.css" rel="StyleSheet" type="text/css" media="all"/>
+		<link href="ulkoasu.css" rel="StyleSheet" type="text/css" media="all and (min-width: 640px)"/>
 		<link rel="StyleSheet" href="print.css" type="text/css" media="print" />
 	</head>
 	<body>
+		<div class="body90">
 		<header>
 			<div class="headertop">
 			<div class="logo">
@@ -29,7 +32,7 @@
 			
 			<nav class="navbartop">
 				<ul>
-					<li><a href="#"><img src="kotiikoni.png" class="kotikuva" alt=""></a></li>
+					<li class="likoti"><a href="#" id="kotihaku"></a></li>
 					<li><a href="#">Sää ja meri</a></li>
 					<li><a href="#">Ilmasto</a></li>
 					<li><a href="#">Palvelut ja tuotteet</a></li>
@@ -382,7 +385,26 @@
 			</div>
 			</section>
 		</div>
+		</div>
 		<footer>
+			<div class="foocontent">
+			<p>&copy; ILMATIETEEN LAITOS</p>
+			<div class="foolinks">
+			<a href="#" class="oikearaja">YHTEYSTIEDOT</a>
+			
+			<a href="#" class="oikearaja">TIETOA SIVUSTOSTA</a>
+			
+			<a href="#">PALAUTE</a>
+			</div>
+			<p>SEURAA MEITÄ</p>
+			<div class="fooimg">
+			<img src="linkedin.png">
+			<img src="flickr.png">
+			<img src="youtube.png">
+			<img src="facebook.png">
+			<img src="twitter.png">
+			</div>
+			</div>
 		</footer>
 	</body>
 </html>

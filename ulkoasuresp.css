@@ -209,24 +209,25 @@ header {
 }
 
 .content{
-	display:block;
+	display: flex;
+    flex-flow: column;
 }
 
 .navbarleft{
-	display:block;
+	
+	order:2;
 	font-size:13px;
 	font-weight:400;
 	border-left: 0px solid #EFEFEF;
 	border-right: 1px solid #EFEFEF;
 	float:left;
-	width: -moz-calc(24% - 1px);
-    width: -webkit-calc(24% - 1px);
-    width: calc(24% - 1px);
+	width: -moz-calc(100% - 1px);
+    width: -webkit-calc(100% - 1px);
+    width: calc(100% - 1px);
 }
 
 .ulko, .sisa{
 
-	float:left;
 	list-style-type:none;
 	padding:0;
 	margin:0;
@@ -237,14 +238,14 @@ header {
 
 .ulko li,.sisa li{
 	width:100%;
-	float:left;	
+	/*float:bottom;	*/
 	
 }
 
 .ulko a,.sisa a{
 	text-decoration:none;
 	display:block;	
-	float:left;
+	/*float:bottom;*/
 	height:3.4em;
 	line-height:3.4em;
 	color:black;
@@ -289,9 +290,10 @@ header {
 }
 
 .main{
+	order:1;
 	margin:0;
 	float:left;
-	width:76%;
+	width:100%;
 	background:white;
 }
 
