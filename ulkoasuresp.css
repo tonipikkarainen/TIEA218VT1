@@ -4,19 +4,17 @@ html{
 	font-family:Roboto, sans-serif;
 	font-weight:700;
 }
+
 .body90{
 	width:90%;
 	margin:auto;
 }
-header {
-	background-image: url("fmi-brand-element.png");
-   
-    height:10em;
-	
-	width: 100%;
-	/*border: 1px solid black;*/
-	text-align: center;
 
+header {
+	background-image: url("fmi-brand-element.png"); 
+    height:10em;	
+	width: 100%;
+	text-align: center;
 }
 
 .headertop{
@@ -28,24 +26,18 @@ header {
 .logo{
 	display: table-cell;
 	vertical-align: middle;
-	/*border: 1px solid black;*/
 }
 
 .kuva{
 	float:left;	
 }
 
-.navbartoptop{
-	
+.navbartoptop{	
 	color: #23527C;
 	width:50%;
-	/*border: 1px solid black;*/
 	display: table-cell;
 	vertical-align: middle;
 }
-
-
-
 
 .navbartoptop li{
 	color: white;
@@ -59,9 +51,11 @@ header {
 	font-size:12px;
 	color: #2486ce;
 }
+
 .navbartop{
 	font-size:8px;
 }
+
 .navbartop ul{
 	width:100%;
 	float:left;
@@ -69,8 +63,7 @@ header {
 	background:#126CC5;
 	list-style-type:none;
 	padding:0;
-	margin:0;
-	
+	margin:0;	
 }
 
 .likoti{
@@ -78,15 +71,12 @@ header {
 	background-image: url("kotiikoni.png");
 	background-position:center;
 	background-repeat: no-repeat;
-
 }
 
 .navbartop li{
-	
 	display:inline;
 	float:left;
 	height:100%;
-	
 }
 
 .navbartop a{
@@ -101,32 +91,10 @@ header {
 	padding-right:1em;
 	font-weight:400;
 }
-/*
-.navkoti{
-	
-	float:left;
-	width:4%;
-	height:3em;
-	background-image: url("kotiikoni.png");
-	background-position:center;
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
 
-#koti{
-	background-position:center;
-	display: block;
-	width:100%;
-	height:100%;
-	background-image: url("kotiikoni.png");
-}
-*/
 .hakutop{
-  
   display: table-cell;
   vertical-align: middle;
-  /*border: 1px solid black; */
-  
 }
 
 .hakuright{
@@ -140,10 +108,8 @@ header {
 	height:2em;
 }
 
-
 .hakupalkki{
-	font-size:9px;
-	
+	font-size:9px;	
 	width: 100%;
 	height: 3.4em;
 }
@@ -152,7 +118,6 @@ header {
 	float:left;
 	width:6%;
 	height:100%;
-	/*background-color: #4d9900;*/
 	background-image: url("vihreapilvi.png");
 	background-position:center;
 	background-repeat: no-repeat;
@@ -176,8 +141,7 @@ header {
 	min-width: 7em;
 	height:100%;
 	background-color:#3BA12F;
-	position: relative 
-	
+	position: relative; 	
 }
 
 .centerhakupalkki{
@@ -187,7 +151,6 @@ header {
 }
 
 #isoinput{
-	
 	width:100%;
 	height:100%;
 	border:none;
@@ -207,12 +170,6 @@ header {
 	height:100%;
 	
 }
-/*
-.content{
-	display: flex;
-    flex-flow: column;
-}
-*/
 
 .navbarleftmob{
 	display:block;
@@ -225,7 +182,6 @@ header {
 	width:100%;
 }
 
-
 .navbarleft{
 	display:none;
 	box-sizing: border-box;
@@ -235,36 +191,24 @@ header {
 	border-right: 1px solid #EFEFEF;
 	float:left;
 	width:100%;
-	/*width: -moz-calc(100% - 1px);
-    width: -webkit-calc(100% - 1px);
-    width: calc(100% - 1px);*/
 }
 
 .ulko, .sisa{
-
 	list-style-type:none;
 	padding:0;
 	margin:0;
 }
 
-
-
-
 .ulko li,.sisa li{
 	width:100%;
-	/*float:bottom;	*/
-	
 }
 
 .ulko a,.sisa a{
 	text-decoration:none;
 	display:block;	
-	/*float:bottom;*/
 	height:3.4em;
 	line-height:3.4em;
 	color:black;
-	
-	/*position: relative */
 }
 
 .ulko a{
@@ -279,19 +223,9 @@ header {
 	background:#F8F8F8;
 }
 
-/*
-.ulko p, .sisa p{
-	position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}*/
-
-
-
 #saaitem{
 	background:#53B9E6;
 	color:white;
-
 }
 
 #paikallisitem{
@@ -304,7 +238,6 @@ header {
 }
 
 .main{
-
 	margin:0;
 	float:left;
 	width:100%;
@@ -316,6 +249,7 @@ header {
 	font-size:20px;
 	font-weight:700;
 }
+
 .taulukko{
 	width:94%;
 	border-spacing:0;
@@ -326,12 +260,6 @@ header {
 	font-size:10px;
 }
 
-
-/*
-td	{
-    border-right: 1px solid #ddd;
-}
-*/
 .reuna{
 	border-right: 1px solid #D3D3D3;
 	border-spacing:0;
@@ -339,13 +267,10 @@ td	{
 	box-sizing:border-box;
 }
 
-
 .paivat td{
 	text-align:left;
 	padding-left:0.7em;
 }
-
-
 
 .saakuva{
 	width:100%;
@@ -428,8 +353,6 @@ td	{
 	font-size:8px;
 }
 
-
-
 .tuntuu td{
 	width:5.5%;
 	background-image: url("tuntuukuin.svg");
@@ -437,15 +360,11 @@ td	{
 	background-size: 100%;
 	background-position: center; 
 	height:3em;
-
-
 }
 
 .tuntuu td p{
-	padding-top:40%;
-	
+	padding-top:40%;	
 }
-
 
 .temp{
 	color:#FF0700;
@@ -496,17 +415,13 @@ td	{
 	height:100%;
 	width:5.5%;
 	vertical-align:bottom;
-   
-	
 	text-align: center;
-
 }
 
 .bar{
 	margin: 5px auto 0;
     width: 60%;
 	background:#95C3E9;
-	
 }
 
 #eka{
@@ -547,6 +462,7 @@ td	{
 .varoitus p{
 	margin-left:3.5em;
 }
+
 .varoituskuva{
 	float:left;
 	height:100%;
@@ -567,18 +483,18 @@ td	{
 	border-bottom:  1px solid #D3D3D3;
 	margin-bottom:1em;
 }
+
 .mainlinkit .lahipaivat{
 	border:1px solid #D3D3D3;
 	border-bottom: 1px solid white;
 	background-color:white;
-	
 }
+
 .mainlinkit a{
 	text-align:center;
 	line-height:3em;
 	text-decoration:none;
 	display:block;
-	
 	float:left;
 	color:rgb(0,0,0);
 	background:#E4E4E4;
@@ -586,7 +502,6 @@ td	{
 	width:12em;
 	margin-left:0.5em;
 }
-
 
 footer{
 	font-size:12px;
@@ -612,13 +527,10 @@ footer{
 	vertical-align: middle;
 }
 
-
-
 .foolinks{
 	height:1em;
 	display:table-cell;
-	vertical-align: middle;
-    
+	vertical-align: middle;  
 }
 
 .foocontent a{
@@ -634,10 +546,8 @@ footer{
 }
 
 .fooimg{
-	
 	display:table-cell;
-	vertical-align: middle;
-    
+	vertical-align: middle; 
 }
 
 .fooimg img{
