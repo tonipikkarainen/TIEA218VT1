@@ -233,6 +233,16 @@ header {
 	color:white;
 }
 
+#saaitemmob{
+	background:#53B9E6;
+	color:white;
+}
+
+#paikallisitemmob{
+	background:#0076D7;
+	color:white;
+}
+
 .content{
 	margin-top:1em;
 }
