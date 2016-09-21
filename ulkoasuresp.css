@@ -207,20 +207,34 @@ header {
 	height:100%;
 	
 }
-
+/*
 .content{
 	display: flex;
     flex-flow: column;
 }
+*/
 
-.navbarleft{
+.navbarleftmob{
+	display:block;
 	box-sizing: border-box;
-	order:2;
 	font-size:13px;
 	font-weight:400;
 	border-left: 0px solid #EFEFEF;
 	border-right: 1px solid #EFEFEF;
 	float:left;
+	width:100%;
+}
+
+
+.navbarleft{
+	display:none;
+	box-sizing: border-box;
+	font-size:13px;
+	font-weight:400;
+	border-left: 0px solid #EFEFEF;
+	border-right: 1px solid #EFEFEF;
+	float:left;
+	width:100%;
 	/*width: -moz-calc(100% - 1px);
     width: -webkit-calc(100% - 1px);
     width: calc(100% - 1px);*/
@@ -290,7 +304,7 @@ header {
 }
 
 .main{
-	order:1;
+
 	margin:0;
 	float:left;
 	width:100%;

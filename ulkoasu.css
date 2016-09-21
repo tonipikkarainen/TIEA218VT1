@@ -212,6 +212,10 @@ header {
 	display:block;
 }
 
+.navbarleftmob{
+	display:none;
+}
+
 .navbarleft{
 	box-sizing: border-box;
 	display:block;
